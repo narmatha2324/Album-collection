@@ -1,0 +1,43 @@
+.update-album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.update-album .form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+.update-album .form-field label {
+  margin-bottom: 9px;
+  margin-top: 9px;
+  text-align: left;
+}
+.update-album .form-field input {
+  height: 37px;
+  width: 500px;
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+button {
+  margin-top: 3%;
+  height: 33px;
+  width: 50%;
+  background: #11235A;
+  border: 0;
+  color: #fff;
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+}
+button:hover {
+  background: #fff;
+  color: #11235A;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
